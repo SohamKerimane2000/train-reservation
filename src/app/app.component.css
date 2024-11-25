@@ -1,0 +1,31 @@
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .coach {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .row {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .seat {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+  }
+  
+  .seat.booked {
+    background-color: red;
+    color: white;
+  }
+  
